@@ -20,7 +20,9 @@ https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md
 *Verify if Python is installed with either of the following command:*
 ```console
 ~$ python3 --version 
-    or
+```
+or
+```console
 ~$ python --version
 ```
 *Install Python using the following link:*
@@ -29,7 +31,9 @@ https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md
 *Install Scapy with the following command:*
 ```console
 ~$ python3 install scapy
-    or
+```
+or
+```console
 ~$ python install scapy
 ```
 
@@ -48,6 +52,8 @@ https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md
 *Run python script:*
 ```console
 ~% python3 sniff_and_spoof.py
-    or
+```
+or
+```console
 ~$ python sniff_and_spoof.py
 ```

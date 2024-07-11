@@ -1,33 +1,53 @@
 # Packet-Sniffing-and-IP-Spoofing
-**Final Project for 4309 Fundamentals of Cybersecurity - Fall 2023**
 
-## Virtual Network Diagram 
+## Network Diagram for Virtual Environment
 ![Alt text](imgs/4309_network_diagram.png)
 
-### Set-up Virtual Machines (VM)
-#### Download the virtual machine file (VM):
+## Setup Virtual Machines (VM)
+### Download the virtual machine file (VM):
 https://drive.google.com/file/d/138fqx0F8bThLm9ka8cnuxmrD6irtz_4m/view
 
-#### Virtual Machine set-up:
+### Virtual Machine Setup:
 https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md
 
-#### Once VM are set up, verify VMs are up-to-date with the following commands: 
-**% sudo apt-get update**
+#### Once VM is setup, verify VMs is up-to-date with the following commands: 
+***Run this command on all of the VMs***
+ ```console
+ ~$ sudo apt-get update && sudo apt-get dist-upgrade
+ ```
 
-**% sudo apt-get dist-upgrade**
-
-#### We must ensure python and scapy library is installed on the ATTACKER VM. You can check to see if python is already installed, use the following command:
-**% python3 --version or % python --version**
-
-#### If your machine doesn't have python installed, you can download from the following link: 
+#### Verify the **Attacker** VM has ***Python*** and ***Scapy*** library installed
+*Verify if Python is installed with either of the following command:*
+```console
+~$ python3 --version 
+    or
+~$ python --version
+```
+*Install Python using the following link:*
 **https://www.python.org/downloads/**
 
-#### For the scapy library, use the following command to install Scapy:
-**% python3 install scapy**
+*Install Scapy with the following command:*
+```console
+~$ python3 install scapy
+    or
+~$ python install scapy
+```
 
-#### Run scripts on Attacker VM
-Make python file an executable: **% chmod a+x sniff_and_spoof.py**
+## Run Python scripts on the Attacker VM
+**Use Python files from src folder**
 
-Become root user to run sniffer script: **% sudo -i**
+*Make Python file an executable file:* 
+```console
+~$ chmod a+x sniff_and_spoof.py
+```
 
-Run python script: **% python3 sniff_and_spoof.py**
+*Must become root user to run sniffer script:*
+```console
+~$ sudo -i
+```
+*Run python script:*
+```console
+~% python3 sniff_and_spoof.py
+    or
+~$ python sniff_and_spoof.py
+```

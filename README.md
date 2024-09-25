@@ -1,10 +1,31 @@
-# Packet-Sniffing-and-IP-Spoofing
+# Packet Sniffing and IP Spoofing Lab
+
+## Overview
+
+This lab explores two critical techniques—**packet sniffing** and **IP spoofing**—that demonstrate the vulnerabilities and threats to network security.
+
+### Packet Sniffing
+Packet sniffing involves capturing and analyzing network traffic, providing essential insights for network performance and troubleshooting. However, it can also be exploited to intercept sensitive data, such as passwords and private communications, making it a powerful tool in both network diagnostics and cyberattacks.
+
+### IP Spoofing
+IP spoofing involves manipulating the source IP address in a packet to masquerade as another device on the network. This technique is often used in cyberattacks such as **man-in-the-middle** and **denial-of-service (DoS)** attacks. Understanding the mechanics of IP spoofing is critical to building strong defenses in network security.
+
+## Importance to Network Security
+By studying and implementing these techniques in a controlled environment, this lab provides valuable hands-on experience in understanding network vulnerabilities. This knowledge is key to developing effective strategies for securing networks, including encryption, intrusion detection systems, and network monitoring solutions.
+
+## Educational Goals
+This lab aims to:
+- Provide a practical understanding of network traffic monitoring via packet sniffing.
+- Illustrate how IP spoofing can be used in cyberattacks and why it is a significant threat.
+- Equip learners with the skills to design and implement security measures to counteract these vulnerabilities.
+
 
 ## Network Diagram for Virtual Environment
 ![Alt text](imgs/4309_network_diagram.png)
 
-## Setup Virtual Machines (VM)
-### Download the virtual machine file (VM):
+## Running the Lab
+### Setup Virtual Machines (VM)
+#### Download the virtual machine file (VM):
 https://drive.google.com/file/d/138fqx0F8bThLm9ka8cnuxmrD6irtz_4m/view
 
 ### Virtual Machine Setup:
